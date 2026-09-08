@@ -1,0 +1,14 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+sqlalchemy>=2.0.30
+pymysql>=1.1.1
+cryptography>=43.0.0
+sqlglot>=25.0.0
+google-genai>=0.1.1
+langgraph>=0.2.0
+langchain-core>=0.2.0
+pytest>=8.2.0
+pytest-asyncio>=0.23.0
+python-dotenv>=1.0.1

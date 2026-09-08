@@ -1,0 +1,69 @@
+# ==============================================================================
+# Git Ignore - AI Operations Agent (Gemini Repository)
+# ==============================================================================
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Pytest & Coverage
+.pytest_cache/
+pytest-cache-files-*/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Databases & Local Storage
+*.db
+*.sqlite
+*.sqlite3
+test_operations.db
+gemini_ops.db
+operations.db
+
+# Secrets & Environment Variables (Keep .env.example)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Node.js & Frontend Build Outputs
+node_modules/
+dist/
+build/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Packaging & Distribution
+*.egg-info/
+*.egg
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+
+# IDE & OS Specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
